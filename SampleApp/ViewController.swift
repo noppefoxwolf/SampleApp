@@ -15,7 +15,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     label.textAlignment = .center
-    label.text = "test"
+    label.text = "test2"
     view.addSubview(label)
   }
 }
