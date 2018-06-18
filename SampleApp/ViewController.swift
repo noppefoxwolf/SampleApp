@@ -9,17 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  private lazy var label = UILabel(frame: self.view.bounds)
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    label.textAlignment = .center
+    label.text = "test"
+    view.addSubview(label)
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
-
 }
 
